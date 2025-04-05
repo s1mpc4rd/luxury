@@ -6,7 +6,7 @@ use App\Http\Controllers\AuthController;
 
 // Ruta para la página principal
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 // Rutas públicas
