@@ -6,7 +6,11 @@ use App\Http\Controllers\AuthController;
 
 // Ruta para la página principal
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('luxury.index');
+=======
+    return view('auth.login');
+>>>>>>> 977696dd6a836f8d3a232f785072450b83be50f0
 });
 
 // Rutas públicas
